@@ -3,17 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphSdkDemo.Api", "GraphSdkDemo.Api\GraphSdkDemo.Api.csproj", "{9E56D723-A493-4803-A31E-0DE07AE49C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphSdkDemo.SharePoint.Api", "GraphSdkDemo.SharePoint.Api\GraphSdkDemo.SharePoint.Api.csproj", "{9E56D723-A493-4803-A31E-0DE07AE49C63}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphSdkDemo.SharePoint.Services", "GraphSdkDemo.SharePoint.Services\GraphSdkDemo.SharePoint.Services.csproj", "{297580DA-CC14-4217-BD0D-FACAA527FAD7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphSdkDemo.SharePoint.Contracts", "GraphSdkDemo.SharePoint.Contracts\GraphSdkDemo.SharePoint.Contracts.csproj", "{8BB4C689-123A-4BE2-824D-D246A3992511}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphSdkDemo", "GraphSdkDemo\GraphSdkDemo.csproj", "{2BA37153-F958-4CF5-B117-FCBAF3CFF756}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphSdkDemo", "GraphSdkDemo\GraphSdkDemo.csproj", "{2BA37153-F958-4CF5-B117-FCBAF3CFF756}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphSdkDemo.SharePoint.Services.IntegrationTests", "GraphSdkDemo.SharePoint.Services.IntegrationTests\GraphSdkDemo.SharePoint.Services.IntegrationTests.csproj", "{338D5D74-4F4A-4C11-B554-B5E66CEC966A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphSdkDemo.SharePoint.Services.IntegrationTests", "GraphSdkDemo.SharePoint.Services.IntegrationTests\GraphSdkDemo.SharePoint.Services.IntegrationTests.csproj", "{338D5D74-4F4A-4C11-B554-B5E66CEC966A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphSdkDemo.Tests.Common", "GraphSdkDemo.Tests.Common\GraphSdkDemo.Tests.Common.csproj", "{CD73F236-6D6D-418A-AED2-F92523D09453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphSdkDemo.Tests.Common", "GraphSdkDemo.Tests.Common\GraphSdkDemo.Tests.Common.csproj", "{CD73F236-6D6D-418A-AED2-F92523D09453}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphSdkDemo.SharePoint.Api.Contracts", "GraphSdkDemo.SharePoint.Api.Contracts\GraphSdkDemo.SharePoint.Api.Contracts.csproj", "{B5CF9417-89AF-4D48-BBE4-E821B8EEA4EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphSdkDemo.Net", "GraphSdkDemo.Net\GraphSdkDemo.Net.csproj", "{E5B8AACB-2080-4741-A037-3EB46AB82297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphSdkDemo.Tests", "GraphSdkDemo.Tests\GraphSdkDemo.Tests.csproj", "{458D09FF-CB1D-49BB-B386-3180317C0401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphSdkDemo.SharePoint.Api.Tests", "GraphSdkDemo.SharePoint.Api.Tests\GraphSdkDemo.SharePoint.Api.Tests.csproj", "{DC7E7BD0-2E53-447D-A2F6-6A0BA9219C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphSdkDemo.SharePoint.Api.IntegrationTests", "GraphSdkDemo.SharePoint.Api.IntegrationTests\GraphSdkDemo.SharePoint.Api.IntegrationTests.csproj", "{E8262FB9-AD61-432C-8844-55EFD7B7AB8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +55,26 @@ Global
 		{CD73F236-6D6D-418A-AED2-F92523D09453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD73F236-6D6D-418A-AED2-F92523D09453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD73F236-6D6D-418A-AED2-F92523D09453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CF9417-89AF-4D48-BBE4-E821B8EEA4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CF9417-89AF-4D48-BBE4-E821B8EEA4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CF9417-89AF-4D48-BBE4-E821B8EEA4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CF9417-89AF-4D48-BBE4-E821B8EEA4EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B8AACB-2080-4741-A037-3EB46AB82297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B8AACB-2080-4741-A037-3EB46AB82297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B8AACB-2080-4741-A037-3EB46AB82297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B8AACB-2080-4741-A037-3EB46AB82297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458D09FF-CB1D-49BB-B386-3180317C0401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458D09FF-CB1D-49BB-B386-3180317C0401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458D09FF-CB1D-49BB-B386-3180317C0401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458D09FF-CB1D-49BB-B386-3180317C0401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7E7BD0-2E53-447D-A2F6-6A0BA9219C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7E7BD0-2E53-447D-A2F6-6A0BA9219C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7E7BD0-2E53-447D-A2F6-6A0BA9219C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7E7BD0-2E53-447D-A2F6-6A0BA9219C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8262FB9-AD61-432C-8844-55EFD7B7AB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8262FB9-AD61-432C-8844-55EFD7B7AB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8262FB9-AD61-432C-8844-55EFD7B7AB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8262FB9-AD61-432C-8844-55EFD7B7AB8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
